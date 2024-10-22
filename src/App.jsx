@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Container maxWidth="lg">
-         <Grid2 sx={{display:'flex', justifyContent:'center', alignItems:'center', gap:'30px', padding:'50px 0 0 0'}}>
+         <Grid2 container sx={{justifyContent:'center', alignItems:'center'}} spacing={{ xs: 2, md: 4 }} columns={{ xs: 1, sm: 1, md: 2 }}>
               <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
@@ -52,7 +52,7 @@ function App() {
              <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
-                    image="/assets/image-waffle-desktop.jpg"
+                    image="/assets/image-creme-brulee-desktop.jpg"
                     title="green iguana"
                   />
                 <CardActions display="flex" sx={{ justifyContent:'center', alignItems:'center ',marginTop:"-30px"}}>    
@@ -86,7 +86,7 @@ function App() {
              <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
-                    image="/assets/image-waffle-desktop.jpg"
+                    image="/assets/ice.jpg"
                     title="green iguana"
                   />
                 <CardActions display="flex" sx={{ justifyContent:'center', alignItems:'center ',marginTop:"-30px"}}>    
