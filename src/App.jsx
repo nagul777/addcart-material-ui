@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Container maxWidth="lg">
-         <Grid2 container sx={{justifyContent:'center', alignItems:'center'}} spacing={{ xs: 2, md: 4 }} columns={{ xs: 1, sm: 1, md: 2 }}>
+         <Grid2 container sx={{justifyContent:'center', alignItems:'center', padding:'100px 0 0 0',gap:'30px'}} >
               <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
