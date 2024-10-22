@@ -19,7 +19,7 @@ function App() {
               <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
-                    image="src/assets/image-waffle-desktop.jpg"
+                    image="/assets/image-waffle-desktop.jpg"
                     title="green iguana"
                   />
                 <CardActions display="flex" sx={{ justifyContent:'center', alignItems:'center ',marginTop:"-30px"}}>    
@@ -52,7 +52,7 @@ function App() {
              <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
-                    image="src/assets/image-waffle-desktop.jpg"
+                    image="/assets/image-waffle-desktop.jpg"
                     title="green iguana"
                   />
                 <CardActions display="flex" sx={{ justifyContent:'center', alignItems:'center ',marginTop:"-30px"}}>    
@@ -86,7 +86,7 @@ function App() {
              <Card sx={{bgcolor:'transparent', boxShadow:'none',position:'relative',textAlign:'center'}}>
                   <CardMedia
                     sx={{ height: '230px', width:'250px', borderRadius:'8px' }}
-                    image="src/assets/image-waffle-desktop.jpg"
+                    image="/assets/image-waffle-desktop.jpg"
                     title="green iguana"
                   />
                 <CardActions display="flex" sx={{ justifyContent:'center', alignItems:'center ',marginTop:"-30px"}}>    
